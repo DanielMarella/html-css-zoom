@@ -4,3 +4,31 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: black;
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.flex{
+    display: flex;
+}
+
+header{
+    border: 4px solid blue;
+    height: 10vh;
+    justify-content: flex-end;
+}
+
+.navigation{
+    align-items: center;
+}
+
+.icon{
+    border: 2px solid red;
+    margin-right: 10px;
+}
