@@ -54,3 +54,27 @@ header{
     height: 3vh;
     border: 2px solid orange;
 }
+
+footer{
+    width: 100%;
+    height: 10vh;
+    border: 4px solid cyan;
+    justify-content: space-between;
+}
+
+.left{
+    align-items: center;
+}
+
+.center{
+    align-items: center;
+}
+
+.right{
+    justify-content: flex-end;
+}
+
+.end-button{
+    border: 1px solid yellow;
+    align-items: center;
+}
