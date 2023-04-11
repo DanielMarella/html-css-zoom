@@ -14,6 +14,10 @@ ul{
     list-style-type: none;
 }
 
+.size{
+    font-size: 1.5rem;
+}
+
 .flex{
     display: flex;
 }
@@ -28,9 +32,15 @@ header{
     align-items: center;
 }
 
+.grey{
+    background-color: #4A4A4A;
+    padding: .5rem;
+    border-radius: 10px;
+}
+
 .icon{
-    border: 2px solid red;
     margin-right: 10px;
+    border: 4px solid red;
 }
 
 .container{
@@ -56,7 +66,6 @@ header{
 }
 
 footer{
-    width: 100%;
     height: 10vh;
     border: 4px solid cyan;
     justify-content: space-between;
@@ -64,9 +73,16 @@ footer{
 
 .left{
     align-items: center;
+    font-size: 3rem;
+}
+
+.upper-menu{
+    font-size: 1.5rem;
+    align-items: center;
 }
 
 .center{
+    font-size: 3rem;
     align-items: center;
 }
 
