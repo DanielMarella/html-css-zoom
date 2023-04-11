@@ -23,7 +23,6 @@ ul{
 }
 
 header{
-    border: 4px solid blue;
     height: 10vh;
     justify-content: flex-end;
 }
@@ -32,15 +31,14 @@ header{
     align-items: center;
 }
 
-.grey{
+.grey-plus{
     background-color: #4A4A4A;
     padding: .5rem;
     border-radius: 10px;
 }
 
 .icon{
-    margin-right: 10px;
-    border: 4px solid red;
+    margin: 0 10px;
 }
 
 .container{
@@ -59,19 +57,21 @@ header{
 .microphone-name{
     position: absolute;
     bottom: 0;
-    text-align: center;
+    align-items: center;
     width: 6vw;
     height: 3vh;
-    border: 2px solid orange;
+    background-color: #4A4A4A;
+    font-size: 1.5rem
 }
 
 footer{
+    background-color: #222222;
     height: 10vh;
-    border: 4px solid cyan;
     justify-content: space-between;
 }
 
-.left{
+.foot-left{
+    padding-left: 1rem;
     align-items: center;
     font-size: 3rem;
 }
@@ -81,16 +81,36 @@ footer{
     align-items: center;
 }
 
-.center{
+.foot-center{
     font-size: 3rem;
     align-items: center;
 }
 
-.right{
+.foot-right{
     justify-content: flex-end;
 }
 
 .end-button{
-    border: 1px solid yellow;
+    padding: 1rem;
+    background-color: #4A4A4A;
     align-items: center;
+}
+
+h2{
+    color: red;
+    padding: 10px;
+}
+
+.center{
+    text-align: center;
+}
+
+.under-text{
+    padding-top: 10px;
+    font-size: 1rem;
+    color: white;
+}
+
+.green{
+    color: lime;
 }
